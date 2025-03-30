@@ -79,7 +79,7 @@ export default function EventDetails({ event, onClose, inSidebar = false }: Even
               <Separator />
 
               <div className="space-y-3">
-                <h3 className="text-sm font-medium">Matches</h3>
+                <h3 className="text-sm font-medium">Partidos</h3>
                 <MatchesList matches={event.matches} />
               </div>
             </>
